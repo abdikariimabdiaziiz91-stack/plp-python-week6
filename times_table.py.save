@@ -1,0 +1,6 @@
+num = int(input("Gali tiro aad rabto in laga soo saaro jadwalka dhirifka: "))
+print(f"\nJadwalka Dhirifka ee {num}:")
+for i in range(1, 11):
+    result = num * i
+    print(f"{num} x {i} = {result}")
+
